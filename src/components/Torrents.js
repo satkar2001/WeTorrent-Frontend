@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import { useLocation } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
-const mylocaldomain="http://localhost:5000";
+const mylocaldomain="https://wetorrent.onrender.com/";
 
 const Torrents = () => {
     const [torrents,setTorrents] = useState([]);
